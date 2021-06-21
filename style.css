@@ -162,12 +162,14 @@ body{
     font-size: 2vmax;
 }
 .midway{
-    display: grid;
+   
     
     
     height: 60vh;
     
-    place-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 1;
     
     
@@ -177,25 +179,31 @@ body{
 .containtone1{
     position: absolute;
     width: 70vw;
+    display: grid;
+    place-content: center;
+    place-items: center;
     
      
     
 }
 .random{
 
-    
     width: 90vw;
     height: 60vh;
     object-fit: cover;
     opacity: 30%;
+    
      
     
 }
 .aboutreq{
+    
     font-size: 3vmin;
-    color: white;
+    color:BLACK;
     z-index: 100;
     line-height: 4vmin;
+    
+    
 }
 .midwayq{
     display: grid;
