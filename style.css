@@ -191,7 +191,7 @@ body{
     width: 90vw;
     height: 60vh;
     object-fit: cover;
-    opacity: 30%;
+    opacity: 50%;
     
      
     
@@ -212,7 +212,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     
     z-index: 1;
-    background-image: linear-gradient(to right, rgb(2, 161, 253) , rgb(0, 255, 21)); opacity: 70%;
+    opacity: 80%;
     text-align: center;
     width: 100%;
 }
