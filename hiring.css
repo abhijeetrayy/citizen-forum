@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main{
+    display: grid;
+    place-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.images{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+h1{
+    margin: 3rem 0rem;
+    font-family: 'Sacramento', cursive;
+    text-decoration: none;
+    font-size: 7vmin;
+    padding-left: 4rem;
+
+}
+p{
+    margin: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 3rem;
+
+}
+ol{
+    text-align: left;
+    padding-left: 2rem;
+}
+ul{
+    padding-left: 8rem;
+    line-height: 2em;
+}
+h4{
+    font-family:'Raleway', sans-serif;
+    margin: 2rem;
+    font-size: 5vmin;
+}
+
+a{
+    font-family: 'Cinzel', serif;
+    text-decoration: wavy underline;
+}
+
+a{
+    color: white;
+}
+.logo{
+    position: absolute;
+    z-index: 100;
+    top: 20px;
+    left: 20px;
+    width: 10vmin;
+    border-radius: 50%;
+}
