@@ -288,4 +288,17 @@ body{
     .idicon{
         font-size: 1rem;
     }
+    .insta{
+        font-size: 1rem;
+    }
+
+}
+@media (max-width:600px){
+    .citizen_logo{
+        width: 15vw;
+    }
+
+    #navlinks{
+        font-size: 6vw;
+    }
 }
