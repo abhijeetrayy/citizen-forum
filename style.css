@@ -24,14 +24,14 @@ body{
 } */
 .citizen_logo {
     position: relative;
-    width: 12%;
+    width: 5vw;
     border-radius: 50%;
     margin-top: 5%;
     left: 3%;
     z-index: 10;
     opacity: 100%;
     display: grid;
-    align-items: left;
+    place-content: left;
  }
  /* :hover.citizen_logo{
      opacity: 70%;
@@ -40,30 +40,27 @@ body{
  
  .navbar{
     z-index: 5;
+    
     display: grid;
-    align-items:center;
+    align-items: center;
     justify-content: right;
+    
+    
 
  }
- .ullinks{
-     
-     
-     text-align: right;
- }
- .navbar li {
-     
-     display: inline;
- }
+
+
  
  #navlinks{
      color :#e4e4e4;
      text-decoration: none;
-     font-size: 1rem;
+     list-style: none;
+     font-size: 2vw;
      line-height: 1.5;
      font-weight: 400;
      font-family:'Poppins', sans-serif;
-     
-     margin:  5rem;
+     padding: 1rem;
+    
        
      
  }
@@ -101,7 +98,7 @@ body{
 }
 
 .words{
-    font-size: 5vmax;
+    font-size: 5vw;
     color: rgb(194, 194, 194);
     z-index: 100;
 }
@@ -110,12 +107,7 @@ body{
     padding-top:2rem;
 }
 
-.emptydiv1{
-    width: 100%;
-    height: 2rem;
-    background-image: linear-gradient(to right, rgb(255, 255, 255) ,  rgb(197, 235, 197));
-    
-}
+
 
 .container{
     display: grid;
@@ -145,17 +137,20 @@ body{
 .ids{
     align-items: center;
     justify-content: center;
-    column-gap: 1vmax;
+    column-gap: 1vh;
     color: white;
-    
+    font-size: 2vw;
     
 }
-
+.icon{
+    width: 2vw;
+}
 .insta{
     text-decoration: none;
     color: black;
     background-color: rgb(221, 221, 221);
     border-radius: 15%;
+    font-size: 2vw;
 }
 .email{
     text-decoration: none;
@@ -165,4 +160,124 @@ body{
 }
 .tiplog{
     font-size: 2vmax;
+}
+.midway{
+    display: grid;
+    
+    
+    height: 60vh;
+    
+    place-items:center;
+    z-index: 1;
+    
+    
+    width: 100%;
+}
+
+.containtone1{
+    position: absolute;
+    width: 70vw;
+    
+     
+    
+}
+.random{
+
+    
+    width: 90vw;
+    height: 60vh;
+    object-fit: cover;
+    opacity: 30%;
+     
+    
+}
+.aboutreq{
+    font-size: 3vmin;
+    color: white;
+    z-index: 100;
+    line-height: 4vmin;
+}
+.midwayq{
+    display: grid;
+    
+    height: 40vmax;
+    grid-template-columns: repeat(3, 1fr);
+    
+    z-index: 1;
+    background-image: linear-gradient(to right, rgb(2, 161, 253) , rgb(0, 255, 21)); opacity: 70%;
+    text-align: center;
+    width: 100%;
+}
+
+.containtone{
+    z-index: 11;
+    
+    
+    
+    grid-column: 2/ 3;
+   
+    
+}
+
+.containttwo{
+    z-index: 10;
+    
+    grid-column: 1/ 2;
+}
+.contiantthree{
+   
+    z-index: 13;
+    grid-column: 3/ 4;
+    }
+
+.randomq{
+    position: absolute;
+    width: 100%;
+    height: 40vmax;
+    object-fit: cover;
+    opacity: 30%;
+     
+    
+}
+
+.abhipic{
+    margin-top: 1vmin;
+    border-radius: 50%;
+    background-color:black;
+    width: 7vmax;
+}
+.arpanpic{
+    border-radius: 50%;
+    background-color:black;
+    width: 7vmax;
+    
+}
+.rahulpic{
+    background-color:black;
+    border-radius: 50%;
+    width: 7vmax;
+    
+    
+}
+.qoute2{
+    font-family:    'Quicksand', sans-serif;
+    font-size: 1.6vw;
+    margin: auto;
+}
+.name{
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem 0 0 0;
+    font-size: 1vmax;
+}
+.tag{
+    font-size: 1vmax;
+}
+
+@media ( min-width: 600px ) {
+    .icon{
+        width: 1rem;
+    }
+    .idicon{
+        font-size: 1rem;
+    }
 }
