@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 }
 body{
     background-color: blanchedalmond;
@@ -42,6 +42,7 @@ ol{
     padding-left: 2rem;
 }
 ul{
+    text-align: left;
     padding-left: 8rem;
     line-height: 2em;
     font-size: 1vmax;
@@ -71,5 +72,12 @@ a{
 @media  (max-width: 600px){
     ul{
         font-size: 1.5vmax;
+    }
+    h1{
+        padding: 0;
+        display: grid;
+        place-content: center;
+        font-size: 1rem;
+
     }
 }
