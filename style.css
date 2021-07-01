@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box; margin:0; padding: 0; 
     text-align: center;
+    
   }
 body{
     margin: 0;
@@ -73,16 +74,17 @@ body{
     background-color: rgb(75, 110, 96);
     
     width: 100%; 
-    height: min-content;
+    
 
     
 }
 
 .slide1 {   
     width: 100%;
-    margin-bottom: -.25em;
+    margin-bottom: -.22em;
     opacity: 50%;  
-    
+    height: 100vh;
+    object-fit: cover;
 }
 
 .midcon{
@@ -315,12 +317,16 @@ body{
     border: 0px solid;
     margin: 1rem;
     outline:none;
+    cursor: cell;
 }
 
 .button:hover {
     background-position: left;
-}
 
+}
+/* a{
+    cursor: cell;
+} */
 @media ( min-width: 600px ) {
     .icon{
         width: 1rem;
@@ -337,7 +343,11 @@ body{
     .citizen_logo{
         width: 15vw;
     }
-
+    .words{
+        font-size: 10vw;
+        color: rgb(194, 194, 194);
+        z-index: 100;
+    }
     #navlinks{
         font-size: 6vw;
     }
