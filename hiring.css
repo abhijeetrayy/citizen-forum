@@ -13,13 +13,13 @@ main{
     background-color: rgb(255, 255, 255);
 }
 p{
-    background-color: rgb(113, 255, 113);
+    background-color: rgb(192, 151, 229);
     border-radius: 35px;
     padding: 1rem;
 }
 a{
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     border-radius: 35px;
     padding: .8vmin;
 }
