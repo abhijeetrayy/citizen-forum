@@ -295,7 +295,7 @@ body {
     }
 
     .words {
-        font-size: 8vw;
+        font-size: 11vmin;
         color: rgb(255, 255, 255);
         z-index: 100;
     }
