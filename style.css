@@ -362,7 +362,7 @@ body {
         color: rgb(0, 0, 0);
         z-index: 100;
         line-height: 20px;
-        letter-spacing: 0px;
+        letter-spacing: 1px;
         margin-top: 1em;
         width: 90%;
         margin: 2rem auto;
