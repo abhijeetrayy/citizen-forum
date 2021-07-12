@@ -224,8 +224,8 @@
     .topcontent h1 {
         z-index: 1;
         color: rgb(255, 255, 255);
-        font-size: 8vmax;
-        letter-spacing: 8   px;
+        font-size: 19vw;
+        letter-spacing: 0px;
     }
 
     .topcontent h2 {
@@ -236,25 +236,24 @@
 
     }
 
-    .footer a {
+    .footer {
+        grid-column: 1/ -1;
+        display: grid;
+    
+        grid-template-rows: 1fr 4fr;
+        width: 100%;
+        border: none;
+        background-color: black;
         color: white;
-        text-decoration: none;
-
-
-        cursor: pointer;
-
-
-
-        font-size: .7em;
-
-
+    
     }
-
+    .insta{
+        display: grid;
+        grid-template-columns: 1fr 8fr ;
+    }
     .footer p {
-
+        text-align: left;
         display: block;
-        padding: 16px;
-        font-size: 1em;
 
     }
 

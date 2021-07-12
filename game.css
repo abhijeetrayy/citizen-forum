@@ -578,14 +578,25 @@
         font-size: 25px;
     }
 
+    .footer {
+        grid-column: 1/ -1;
+        display: grid;
+    
+        grid-template-rows: 1fr 4fr;
+        width: 100%;
+        border: none;
+        background-color: black;
+        color: white;
+    
+    }
+    .insta{
+        display: grid;
+        grid-template-columns: 1fr 8fr ;
+    }
     .footer p {
-
+        text-align: left;
         display: block;
 
-    }
-
-    .insta {
-        text-align: center;
     }
 
     .footer a {

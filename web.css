@@ -291,7 +291,6 @@ h7{
 .teamup{
     text-align: center;
     border-top: solid 2px black;
-    margin:2em;
 }
 .teamup h2{
     margin-top: 2em;
@@ -421,14 +420,25 @@ h7{
     .outcom h3{
         font-size: 25px;
     }
-    .footer p{
-        
-        display: block;
-        padding: 16px;
-        
+    .footer {
+        grid-column: 1/ -1;
+        display: grid;
+    
+        grid-template-rows: 1fr 4fr;
+        width: 100%;
+        border: none;
+        background-color: black;
+        color: white;
+    
     }
     .insta{
-        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 8fr ;
+    }
+    .footer p {
+        text-align: left;
+        display: block;
+
     }
     .footer a{
         font-size: .65em;
