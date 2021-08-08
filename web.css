@@ -9,64 +9,7 @@
 
 
 
-.totalnav {
-    display: grid;
-    position: absolute;
-    grid-template-columns: 1fr 2fr;
-    width: 100%;
-}
 
-/* .logo{
-    position: fi;
-    top: 3vmin;
-} */
-.citizen_logo {
-    position: relative;
-    width: 5vw;
-    border-radius: 50%;
-    margin-top: 5%;
-    left: 3%;
-    z-index: 10;
-    opacity: 100%;
-    display: grid;
-    place-content: left;
-}
-
-/* :hover.citizen_logo{
-     opacity: 70%;
-     background-color: rgb(223, 236, 37);
- } */
-
-.navbar {
-    z-index: 5;
-
-    display: grid;
-    align-items: center;
-    justify-content: right;
-
-
-
-}
-
-
-
-#navlinks {
-    color: #bbbbbb;
-    text-decoration: none;
-    list-style: none;
-    font-size: 20px;
-    line-height: 1.5;
-
-    font-family: 'Poppins', sans-serif;
-    padding: 1rem;
-
-
-
-}
-
-:hover#navlinks {
-    color: #ffffff;
-}
 .topc {
     height: 50vh;
     width: 100%;
@@ -93,7 +36,7 @@
 
 
     margin: auto;
-    z-index: 1000;
+    z-index: 1;
 
 
 }
